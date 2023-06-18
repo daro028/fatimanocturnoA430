@@ -36,16 +36,16 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/carousel/carousel1.jpg" class="d-block w-100" alt="...">
+        <img src="img/carousel/carousel1.jpg" class="d-block" id="carrousel">
       </div>
       <div class="carousel-item">
-        <img src="img/carousel/carousel2.jpg" class="d-block w-100" alt="...">
+        <img src="img/carousel/carousel2.jpg" class="d-block" id="carrousel">
       </div>
       <div class="carousel-item">
-        <img src="img/carousel/carousel3.jpg" class="d-block w-100" alt="...">
+        <img src="img/carousel/carousel3.jpg" class="d-block" id="carrousel">
       </div>
       <div class="carousel-item">
-        <img src="img/carousel/carousel4.jpg" class="d-block w-100" alt="...">
+        <img src="img/carousel/carousel4.jpg" class="d-block" id="carrousel">
       </div>
     </div>
   </div>
@@ -74,5 +74,23 @@
 <!--===Inicio Script===-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <!--===Fin Script===-->
+
+<!--===Inicio JQuery===-->
+<style>
+  @media screen and (max-width: 576px){
+    #carrousel{
+      height: 40vh;
+    }
+  }
+
+  @media screen and (min-width: 577px){
+    #carrousel{
+      width: 100vw;
+    }
+  }
+</style>
+<!--===Inicio JQuery===-->
+
+
 </body>
 </html>
